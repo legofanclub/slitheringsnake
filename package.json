@@ -1,0 +1,31 @@
+{
+  "name": "slithering-snake",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "backend": "npx nodemon ./backend/backend.ts",
+    "profileBackend": "node --inspect-brk --experimental-specifier-resolution=node ./backend/backend.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "vite": "^3.1.3"
+  },
+  "dependencies": {
+    "@geckos.io/client": "^2.2.3",
+    "@geckos.io/server": "^2.2.3",
+    "@tsconfig/node16": "^1.0.3",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.7.23",
+    "@types/timsort": "^0.3.0",
+    "npm-check-updates": "^16.3.2",
+    "timsort": "^0.3.0",
+    "typescript": "^4.8.4",
+    "yarn": "^1.22.19"
+  }
+}
