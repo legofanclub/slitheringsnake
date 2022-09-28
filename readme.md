@@ -8,8 +8,8 @@ https://user-images.githubusercontent.com/67127770/192843419-54894e64-7ac0-4285-
 
 #### Installation
 ```
-git clone https://github.com/legofanclub/slitherclone.git
-cd slitherclone
+git clone https://github.com/legofanclub/slitheringsnake.git
+cd slitheringsnake
 npm install
 ```
 Note: Some dependencies have to build from source (with Node 16.16.0). To do this, you will need to have [CMake](https://cmake.org/) and [OpenSSL](https://www.openssl.org/) installed.
